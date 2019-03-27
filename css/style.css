@@ -1,0 +1,431 @@
+/*
+  Theme : Search - Java Bussiness Competition
+  Description : Java Bussiness Competition - Telkom University from Search
+  Author : Tino Dau (WebDev - Central Computer Improvement)
+  Version : 0.1
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
+
+
+.rapihin {
+   margin: 0;
+}
+
+body {
+  font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;
+  background: #fff;
+  color: #444;
+  font-size: 1.7em;
+}
+
+.video{
+  position: relative;
+}
+
+.video iframe{
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  top: 0;
+  left: 0;
+}
+
+
+h2 {font-size: 1.9em; font-weight: 600}
+h3 {font-size: 1.4em; font-weight: 600;padding-top: 0;margin-top: .8em}
+
+hr {border-top: 1px solid #999;margin-left: 1em; margin-right: 1em}
+li {
+  line-height: 2;
+}
+
+footer{
+  background-color: #333;
+  color : #ccc;
+  padding: 2em;
+  margin-bottom: 0;
+}
+
+.darker {
+  box-shadow: inset
+  -webkit-box-shadow: inset 0 5px 20px -7px rgba(0,0,0,0.4);
+  -moz-box-shadow: inset 0 5px 20px -7px rgba(0,0,0,0.4);
+  box-shadow: inset 0 5px 20px -7px rgba(0,0,0,0.4);
+}
+/********* NAVBAR ********/
+
+.navbar-nav li a:hover , .navbar-nav li a:active, .navbar-nav li a::after , .navbar-nav li a:visited{
+  background-color: #075faa;
+  opacity: .9;
+}
+
+.navbar-custom {
+  font-size: .9em;
+  font-weight: 600;
+  transition: all 0.4s ease 0.1s;
+  background-color: #046cc3;
+  color: #ffffff;
+  margin: 0;
+  border: 0;
+  opacity: .9;
+  color: #fff;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-custom a {
+  color: #fff;
+  transition: all 0.4s ease 0.1s;
+}
+
+.navibutton {
+  background-color: #045da8;
+  margin: 0;
+  width: 3em;
+  height: 3.5em;
+  border-radius: 0;
+}
+
+/******** BIG LOGO *********/
+
+#biglogo {
+  background: #000;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#biglogo img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -30vh 0 0 -32.5vw;
+  width: 65vw;
+  height: 60vh;
+
+  /**
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    margin: -30% 0 0 -35%;
+    width: 70%;
+    height: 60%;
+  **/
+}
+
+/******** CONTEST *********/
+
+#contest {
+  background-repeat:no-repeat;
+  /**background-size:contain;**/
+  background-attachment: scroll;
+  background-position:center;
+  overflow: auto;
+  position: relative;
+}
+
+/**
+.lalal {
+  width: 100%;
+  height: 100vh;
+  opacity: .1;
+  background-color: #fff;
+
+}**/
+
+.detail {
+  background-color: #333;
+  opacity: .85;
+  width: 35vw;
+  height: 100vh;
+  padding: 10vh 3vw;
+  color: #fff;
+}
+
+.headcontest {
+  text-align: center;
+  font-size: 1.7em;
+  color: #fff;
+  margin: 1em 0;
+  top: 4em;
+  font-weight: 600;
+}
+
+.overviewcontest {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.goright {
+  float: right;
+  -webkit-box-shadow: -16px 0px 42px -15px rgba(0,0,0,0.65);
+  -moz-box-shadow: -16px 0px 42px -15px rgba(0,0,0,0.65);
+  box-shadow: -16px 0px 42px -15px rgba(0,0,0,0.65);
+}
+
+.goleft {
+  float: left;
+  -webkit-box-shadow: 16px 0px 42px -15px rgba(0,0,0,0.84);
+  -moz-box-shadow: 16px 0px 42px -15px rgba(0,0,0,0.84);
+  box-shadow: 16px 0px 42px -15px rgba(0,0,0,0.84);
+}
+
+/******** WHITE *********/
+
+.white {
+  background-color: #fff;
+  color: #333;
+  padding: 2em 2em 4em 2em;
+  text-align: center;
+}
+
+.img-shad {
+  -webkit-box-shadow: 5px 5px 26px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 26px 0px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 26px 0px rgba(0,0,0,0.5);
+  margin-bottom: 2em;
+}
+
+#sponsor img, #supported img, #mediapartner img {
+  margin: 1em 1em;
+  max-width: 7em;
+  max-height: auto;
+}
+
+.modal-body img {
+  width: 50em;
+}
+/******* INFORMATION *******/
+
+.info {
+  border-bottom: 1px solid #999;
+}
+
+.more-button {
+   background-color: #000;
+   text-align: center;
+   color: #fff;
+   border-radius: .2em;
+   width: 5em;
+   margin: 1em auto;
+}
+
+.more-button:hover {
+  opacity: .95em;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.more-button a{
+   margin: auto;
+   padding: .6em;
+   color: #fff;
+   display: block;
+}
+
+.more-button a:hover{
+   text-decoration: none;
+   color: #eee;
+}
+
+/********* CONTACT *********/
+
+.well {
+  border-radius: 0;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.4);
+}
+
+.hp {
+  margin: 2em;
+}
+
+/********* ABOUT *********/
+
+.theabout {
+  margin-top: 3em;
+  padding: 1%;
+  text-align: center;
+}
+
+.aboutimg {
+  margin-top: 2%;
+  width: 70%;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.5);
+}
+
+.detailabout {
+  padding: 5%;
+}
+
+/*********** EVENT ***********/
+
+.event {
+  border: 1px solid #ccc;
+  border-top: 0;
+  padding: 1em;
+  text-align: left;
+  line-height: 2;
+  -webkit-box-shadow: 0px 5px 12px -5px rgba(0,0,0,0.64);
+  -moz-box-shadow: 0px 5px 12px -5px rgba(0,0,0,0.64);
+  box-shadow: 0px 5px 12px -5px rgba(0,0,0,0.64);
+}
+
+.liner {
+  line-height: 1.8;
+}
+
+.tabevent {
+  padding: 5%;
+}
+
+.whiteevent {
+  background-color: #fff;
+  color: #333;
+  padding: 2em 2em 4em 2em;
+  text-align: center;
+}
+
+.galerytext {
+  margin: 1em .5em;
+  font-size: 1.5em;
+}
+
+/****** COPYRIGHT *****/
+
+
+.footer {
+  width: 100%;
+  text-align: center;
+}
+
+/******************* RESPONSIVE ************************/
+
+@media only screen and (min-width: 200px) and (max-width : 980px)
+{
+  .navbar-brand{
+    margin-top: .1em;
+  }
+
+  #biglogo img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -7vh 0 0 -25vw;
+    width: 50vw;
+    height: 16vh;
+  }
+
+  /****************/
+
+  #contest {
+    background-repeat:no-repeat;
+    /**background-size:contain;**/
+    background-attachment: scroll;
+    background-position:center;
+    overflow: auto;
+    position: relative;
+    height: 100vh;
+  }
+
+  .detail {
+    background-color: #333;
+    opacity: .85;
+    width: auto;
+    height: 50vh;
+    padding: 1vh 3vw;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+  }
+
+  
+  .headcontest {
+    text-align: center;
+    font-size: 1.6em;
+    color: #fff;
+    margin: .5em 0;
+    top: 2em;
+    font-weight: 600;
+  }
+
+  .overviewcontest {
+    color: #fff;
+    font-size: .9em;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  /**********/
+
+  #sponsor img, #supported img, #mediapartner img {
+    margin: 1em 1em;
+    max-width: 4em;
+    max-height: auto;
+  }
+
+  .footer {
+    position: relative;
+    padding: .5em;
+  }
+
+  /**********/
+
+  .event {
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 0px 5px 12px -5px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 5px 12px -5px rgba(0,0,0,0.64);
+    box-shadow: 0px 5px 12px -5px rgba(0,0,0,0.64);
+  }
+
+  .tabevent {
+    padding: 5% 0;
+  }
+
+  .whiteevent{
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+
+  .aboutimg {
+    width: 90%;
+  }
+}
+
+.video-container {
+ position: relative;
+ padding-bottom: 56.25%;
+ padding-top: 30px;
+ height: 0;
+ overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 70%;
+ height: 70%;
+}
+
+.entry-content img, 
+.entry-content iframe, 
+.entry-content object, 
+.entry-content embed {
+        max-width: 100%;
+}
